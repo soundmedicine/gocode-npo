@@ -1,4 +1,14 @@
-ul {
+.npoList {
   display: flex;
-  flex: 3;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.npoUl {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  width: 25%;
+  color: lightgray;
+  margin: .5%;
 }
