@@ -26,6 +26,7 @@ fetch(apiUrl)
             
 
             newUl.setAttribute('class', 'npoUl')
+            newUl.setAttribute('style', 'list-style: none')
             npoList.appendChild(newUl)
             
             npoName.textContent = dataObject.name
