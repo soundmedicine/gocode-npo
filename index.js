@@ -13,7 +13,7 @@ fetch(apiUrl)
             const npoName = document.createElement('li')
             const revLi = document.createElement('li')
             const expLi = document.createElement('li')
-            const coverage = document.createElement('li')
+            const coverage = document.createElement('li') 
         
             newUl.setAttribute('class', 'npoUl')
             npoList.appendChild(newUl)
