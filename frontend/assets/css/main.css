@@ -8,6 +8,10 @@
 #19192c dark slate grey
 */
 
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 :root {
   --jumbotron-padding-y: 3rem;
 }
@@ -176,13 +180,13 @@
 
 h5.card-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin-left: 1.7rem;
 }
 
 .card-text {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 100;
 }
 
@@ -190,6 +194,7 @@ h5.card-title {
   background-image: url('../img/star.png');
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   width: 1.5rem;
   float: left;
 }
